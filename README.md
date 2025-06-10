@@ -3,7 +3,7 @@
 This website will contain a portfolio of my software projects. I have been much more focused on backend develop for the past few years
 but currently I am learning JavaScript and have some interesting projects in the works.
 
-[cullendales.com](cullendales.com)
+[cullendales.com](https://cullendales.com)
 
 ## Roadmap
 - [x] Get initial page up and running with Pong and About Me section
