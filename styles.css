@@ -51,16 +51,16 @@ html {
 	font-weight: 600;
 	font-size: 16px;
 	text-decoration: none;
-	color: #A32cc4;
+	color: #ff4d5a;
 	background-color: transparent;
-	border: 2px solid #A32cc4;
+	border: 2px solid #ff4d5a;
 	border-radius: 6px;
 	cursor: pointer;
 	transition: background-color 0.3s, color 0.3s;
 }
 
 .about-me-button:hover {
-	background-color: #A32cc4;
+	background-color: #ff4d5a;
 	color: #1a1a1a;
 }
 
