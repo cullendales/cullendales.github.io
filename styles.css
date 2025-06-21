@@ -1,0 +1,42 @@
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700&display=swap);
+
+body {
+	background-color: #1a1a1a;
+	color: #fafafa;
+	font-family: 'Montserrat', sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+.introduction {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+
+.introduction__content {
+	text-align: center;
+}
+
+.introduction__heading {
+	font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+	font-size: 3rem;
+	margin-bottom: 2rem;
+}
+
+.highlight {
+	color: red;
+}
+
+.introduction__name {
+	color: #ff4d5a;
+}
+
+.introduction__text {
+	font-size: 1.6rem;
+	max-width: 600px;
+	line-height: 1.5;
+}
