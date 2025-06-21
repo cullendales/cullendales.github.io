@@ -72,10 +72,21 @@ html {
 	padding: 2rem;
 }
 
+#projects {
+	min-height: 50vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 2rem;
+	width: 100%;
+}
+
 .socials {
   display: flex;
   justify-content: center; 
+  align-items: center;
   margin-top: 2rem;
+  width: 100%; 
 }
 
 .socials__github {
@@ -94,6 +105,8 @@ html {
 .socials__github img {
   width: 24px; 
   height: 24px;
+  object-fit: contain; 
+  object-position: center; 
   transition: transform 0.3s ease;
 }
 
@@ -104,5 +117,3 @@ html {
 .socials__github:hover img {
   transform: scale(1.2);
 }
-
-
