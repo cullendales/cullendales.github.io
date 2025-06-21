@@ -40,3 +40,33 @@ body {
 	max-width: 600px;
 	line-height: 1.5;
 }
+
+.about-me-button {
+	padding: 1rem 2.5rem;
+	line-height: 1.6;
+	font-weight: 600;
+	font-size: 16px;
+	text-decoration: none;
+	color: #A32cc4;
+	background-color: transparent;
+	border: 2px solid #A32cc4;
+	border-radius: 6px;
+	cursor: pointer;
+	transition: background-color 0.3s, color 0.3s;
+}
+
+.about-me-button:hover {
+	background-color: #A32cc4;
+	color: #1a1a1a;
+}
+
+#about__me {
+	min-height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 2rem;
+}
+
+
+
