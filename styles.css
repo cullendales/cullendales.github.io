@@ -32,11 +32,11 @@ html {
 }
 
 .highlight {
-	color: red;
+	color: #A32cc4;
 }
 
 .introduction__name {
-	color: #ff4d5a;
+	color: #A32cc4;
 }
 
 .introduction__text {
@@ -51,16 +51,16 @@ html {
 	font-weight: 600;
 	font-size: 16px;
 	text-decoration: none;
-	color: #ff4d5a;
+	color: #A32cc4;
 	background-color: transparent;
-	border: 2px solid #ff4d5a;
+	border: 2px solid #A32cc4;
 	border-radius: 6px;
 	cursor: pointer;
 	transition: background-color 0.3s, color 0.3s;
 }
 
 .about-me-button:hover {
-	background-color: #ff4d5a;
+	background-color: #A32cc4;
 	color: #1a1a1a;
 }
 
