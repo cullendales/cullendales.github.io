@@ -13,6 +13,12 @@ html {
   scroll-behavior: smooth;
 }
 
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
 .introduction {
 	display: flex;
 	justify-content: center;
@@ -128,6 +134,8 @@ html {
   height: 600px;
   margin: 0 auto;
   background-color: #000; 
+  overflow: hidden;
+  display: block;
 }
 
 .projects-container {
