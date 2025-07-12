@@ -186,7 +186,7 @@ html, body {
     content: "";
     position: absolute;
     inset: -100px -140px;
-    background: url("images/crt-Gaming2.png") center / contain no-repeat;
+    background: url("images/crt-gaming2.png") center / contain no-repeat;
     pointer-events: none;
     z-index: 0;
 }
