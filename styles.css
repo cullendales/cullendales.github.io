@@ -136,7 +136,7 @@ html, body {
 	justify-content: center;
 }
 
-.pong {
+/* .pong {
   display: flex;
   align-items: flex-start;
   gap: 20px; 
@@ -144,28 +144,68 @@ html, body {
   max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
+} */
+
+/* .pong-content {
+    /* flex: 1;
+    min-width: 400px; */
+    /* text-align: centre; */
+    /* margin-left: -100px;
+    padding-right: 100px; */
+/* }
+
+.pong-content h2 {
+    margin-top: 0;
+    margin-bottom: 20px;
+} */
+
+.projects-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+    justify-content: center;
+}
+
+.pong {
+    width: 1080px;          
+    max-width: 100%;        
+    margin: 0 auto;       
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
 }
 
 .iframe-container {
-  flex: 0 0 800px; 
-  height: 600px;
-  background-color: #000;
-  overflow: hidden;
+    width: 800px;
+    height: 600px;
+    position: relative;   
+    margin: 0 auto;
+}
+
+.iframe-container::before {
+    content: "";
+    position: absolute;
+    inset: -140px -160px;
+    background: url("images/crtframe4.png") center / contain no-repeat;
+    pointer-events: none;
+    z-index: 0;
+}
+
+.iframe-container iframe {
+    position: absolute;  
+    top:   0;            
+    left: -100px;          
+    width: 100%;
+    height: 100%;
+    border: none;
+    background: #000;
+    z-index: 1;
 }
 
 .pong-content {
-  flex: 1; 
-  min-width: 400px; 
-  text-align: left;
-  margin-left: -100px; 
-  padding-right: 100px;
+    text-align: center;
+    margin-bottom: 1rem;
 }
-
-.pong-content h2 {
-  margin-top: 0;
-  margin-bottom: 20px;
-}
-
 
 
 
