@@ -38,11 +38,17 @@ html, body {
 }
 
 .highlight {
-	color: #A32cc4;
+	/* color: #A32cc4; */
+  /* color: #45b3e0; */
+  /* color: #82c8e5; */
+  color: #a7dcfb;
 }
 
 .introduction__name {
-	color: #A32cc4;
+	/* color: #A32cc4; */
+  /* color: #45b3e0; */
+  /* color: #82c8e5; */
+  color: #a7dcfb;
 }
 
 .introduction__text {
@@ -57,16 +63,18 @@ html, body {
 	font-weight: 600;
 	font-size: 16px;
 	text-decoration: none;
-	color: #A32cc4;
+	/* color: #A32cc4; */
+  color: #a7dcfb;
 	background-color: transparent;
-	border: 2px solid #A32cc4;
+	/* border: 2px solid #A32cc4; */
+  border: 2px solid #a7dcfb;
 	border-radius: 6px;
 	cursor: pointer;
 	transition: background-color 0.3s, color 0.3s;
 }
 
 .about-me-button:hover {
-	background-color: #A32cc4;
+	background-color: #a7dcfb; /* #A32cc4 */
 	color: #1a1a1a;
 }
 
