@@ -157,7 +157,7 @@ html, body {
 .iframe-container::before {
     content: "";
     position: absolute;
-    inset: -48px -109px;
+    inset: -44.4px -105px;
     background: url("images/crt-gaming2.png") center / 100% 100% no-repeat;
     pointer-events: none;
     z-index: 0;
@@ -166,7 +166,7 @@ html, body {
 .iframe-container iframe {
     position: absolute;  
     top:   -12px;            
-    left: -94px;          
+    left: -93px;          
     width: 100%;
     height: 100%;
     border: none;
