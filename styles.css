@@ -70,12 +70,37 @@ html, body {
 	color: #1a1a1a;
 }
 
-#about__me {
-	min-height: 100vh;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	padding: 2rem;
+#about {
+  display: flex;
+  font-size: 17px;
+  min-height: 100vh;
+  padding: 2rem 2rem 2rem 0;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 2rem;
+  max-width: none; 
+  margin: 0; 
+  margin-left: 5rem;
+  width: 100%; 
+}
+
+#about .text {
+  flex: none;
+  max-width: 50%; 
+  min-width: 300px; 
+  text-align: left;
+}
+
+#about .text p {
+  margin-bottom: 1.25rem;
+}
+
+.about-photo {
+  float: right;
+  width: 70%;
+  height: auto;
+  margin-right: 7rem;
 }
 
 #projects {
@@ -153,7 +178,7 @@ html, body {
     position: relative;   
     margin: 0 auto;
 }
-/* inset: -120px -180px; */
+
 .iframe-container::before {
     content: "";
     position: absolute;
