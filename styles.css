@@ -39,12 +39,14 @@ html, body {
 }
 
 .intro__job {
-  margin: 0;
-	font-family: 'Montserrat', sans-serif;
-  font-weight: 300;
-	font-size: 3rem;
-	margin-bottom: 2rem;
-  animation: slideInRight 800ms ease-out both;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    animation: slideInRight 600ms ease-out both;
+    font-style: normal;
+    text-transform: none;
 }
 
 .highlight {
