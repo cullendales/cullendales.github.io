@@ -31,23 +31,27 @@ html, body {
 }
 
 .introduction__heading {
+  margin: 0;  
 	font-family: 'Montserrat', sans-serif;
-    font-weight: 300;
+  font-weight: 300;
+	font-size: 3rem;
+  animation: slideInLeft 800ms ease-out both;
+}
+
+.intro__job {
+  margin: 0;
+	font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
 	font-size: 3rem;
 	margin-bottom: 2rem;
+  animation: slideInRight 800ms ease-out both;
 }
 
 .highlight {
-	/* color: #A32cc4; */
-  /* color: #45b3e0; */
-  /* color: #82c8e5; */
   color: #a7dcfb;
 }
 
 .introduction__name {
-	/* color: #A32cc4; */
-  /* color: #45b3e0; */
-  /* color: #82c8e5; */
   color: #a7dcfb;
 }
 
@@ -63,19 +67,52 @@ html, body {
 	font-weight: 600;
 	font-size: 16px;
 	text-decoration: none;
-	/* color: #A32cc4; */
   color: #a7dcfb;
 	background-color: transparent;
-	/* border: 2px solid #A32cc4; */
   border: 2px solid #a7dcfb;
 	border-radius: 6px;
 	cursor: pointer;
 	transition: background-color 0.3s, color 0.3s;
+  display: inline-block;
+  animation: AppearUp 1.2s ease-out 0.8s both;
 }
 
 .about-me-button:hover {
-	background-color: #a7dcfb; /* #A32cc4 */
+	background-color: #a7dcfb;
 	color: #1a1a1a;
+}
+
+@keyframes slideInLeft {
+  from {
+    transform: translateX(-45px);   
+    opacity: 0;                    
+  }
+  to {
+    transform: translateX(0);     
+    opacity: 1;
+  }
+}
+
+@keyframes slideInRight {
+  from {
+    transform: translateX(45px);   
+    opacity: 0;                    
+  }
+  to {
+    transform: translateX(0);     
+    opacity: 1;
+  }
+}
+
+@keyframes AppearUp {
+  from {
+    transform: translateY(100px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
 }
 
 #about {
